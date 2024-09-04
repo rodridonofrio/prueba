@@ -1,0 +1,49 @@
+package prueba1;
+
+//atributos
+public class Auto {
+    private int id;
+    private String marca;
+    private String modelo;
+    private int anio;
+    
+    //constructor
+    
+    public Auto(){
+    }
+
+    public Auto(int id, String marca, String modelo, int anio) {
+        this.id = id;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.anio = anio;
+    }
+    
+    //gets y sets
+    public int getId(){
+        return id;
+    }
+    public void setId(int id){
+        this.id = id;
+    }
+    public String getMarca(){
+        return marca;
+    }
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+    public String getModelo(){
+        return modelo;
+    }
+    public void setModelo(String modelo){
+        this.modelo = modelo;
+    }
+    public int getAnio(){
+        return anio;
+    }
+
+    public void setAnio(int anio){
+        this.anio = anio;
+    }
+    
+}

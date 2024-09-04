@@ -1,0 +1,14 @@
+package prueba1;
+
+public class Prueba1 {
+
+    public static void main(String[] args) {
+        Auto golcito = new Auto();
+        golcito.setId(1);
+        golcito.setMarca("Volkswagen");
+        golcito.setModelo("Gol");
+        
+        System.out.println(golcito.getModelo());
+    }
+    
+}
