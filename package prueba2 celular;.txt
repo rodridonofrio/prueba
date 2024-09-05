@@ -1,0 +1,60 @@
+package prueba2;
+
+public class Celular {
+    //atributos de la clase Celular
+    private int id;
+    private String marca;
+    private String modelo;
+    private String siSop;
+    
+    //constructor vacio
+    public Celular(){
+    }
+    
+    //constructor lleno
+    public Celular(int id, String marca, String modelo, String siSop){
+        this.id = id;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.siSop = siSop;
+    }
+
+    //gets and setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {//este set es inutil o para hacer lio siendo que el id se autogenera en mysql
+        this.id = id;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getSiSop() {
+        return siSop;
+    }
+
+    public void setSiSop(String siSop) {
+        this.siSop = siSop;
+    }
+
+    @Override
+    public String toString() {
+        return "Celular{" + "id=" + id + ", marca=" + marca + ", modelo=" + modelo + ", siSop=" + siSop + '}';
+    }
+    
+}

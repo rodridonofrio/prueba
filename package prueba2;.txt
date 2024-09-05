@@ -1,0 +1,13 @@
+package prueba2;
+
+public class Prueba2 {
+    
+    public static void main(String[] args) {
+        Celular celu = new Celular();
+        celu.setMarca("Samsung");
+        celu.setId(1);
+        
+        System.out.println(celu.toString());
+    }
+    
+}
