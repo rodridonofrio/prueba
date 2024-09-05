@@ -1,0 +1,14 @@
+proyecto: prueba2
+
+clase: Celular
+
+Atributos:
+id
+marca
+modelo
+siSop
+
+contructor vacio
+constructor lleno
+get/set
+toString
