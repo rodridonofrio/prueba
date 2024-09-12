@@ -1,0 +1,11 @@
+
+package bibliotecaa;
+
+
+public class Bibliotecaa {
+    public static void main(String[] args) {
+        Panta vista=new Panta();
+        vista.setVisible(true);
+    }
+    
+}
