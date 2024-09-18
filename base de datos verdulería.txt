@@ -1,0 +1,20 @@
+base de datos: verdulería
+tabla:	producto
+		id int nn ai
+		nombre varchar (45)
+		detalle varchar (45)
+		fecha_de_compra varchar (8)
+		precio_de_compra doublé
+		precio_de_venta doublé
+		stock int
+
+
+
+MVC
+
+P MODEL-------------------clases-----------Producto/ProductoDao coneccion con mysql
+P CONTROLLER------controladores-----producto_controller
+P VIEW------------pantalla
+P MAIN
+P IMAGE
+P REPORT
